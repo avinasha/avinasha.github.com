@@ -12,6 +12,16 @@ body {
   width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
 }
 
+a{
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: black !important;
+	color: white !important;
+}
 /* The white background content wrapper */
 .content {
   background-color: #fff;
