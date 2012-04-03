@@ -21,7 +21,7 @@ And to top it all, the locations of my team members are entirely different.
 
 We follow certain processes which allows us to be flexible.  
 
-When I started out a SupportBee in Bangalore we had an office where we used to work out off. Even though the entire team was in the same room all conversations used to happen through a group chat tool called [Campfire](http://campfirenow.com).
+When I started out a SupportBee in Bangalore we had an office where we used to work out off. Even though the entire team was in the same room all conversations used to happen through a group chat tool called [Campfire](http://campfirenow.com). [More Info](http://teamblog.supportbee.com/2011/04/01/how-to-use-campfire-to-keep-your-non-dev-employer-happy/)
 
 <a href="http://i.imgur.com/S5hSb.png" target="_blank"><img src="http://i.imgur.com/S5hSb.png" width="45%" height="45%" title="Campfire"/></a>
 
