@@ -5,7 +5,7 @@ tags : [startup, process]
 ---
 {% include JB/setup %}
 
-Its been an year since I joined [SupportBee](http://supportbee.com) and the kind of learnings is insurmountable. I want to share some of the highlights of these learnings.
+Its been an year since I joined [SupportBee](http://supportbee.com) and the kind of learnings is huge. I want to share some of the highlights of these learnings.
 
 Usually the word 'freedom' has always been associated with startups, but at **SupportBee** we take it to new heights. To give a perspective, in the last year I have worked from **four different** cities without losing much of productivity. The **concept of office has been taken out of the four walls (or cubicle) and pushed out to the wilderness**. (You can work from the space station if you want ;) ). These philosophies line up with those of successful companies like [37Signals](http://37signals.com) as clearly stated by Jason Fried, CEO of 37Signals in the following TED talk.
 
@@ -29,7 +29,7 @@ The advantage of this is two fold:
 + The obvious advantage of this is that it immediately removes the need to actaully talk to get this done. 
 + Secondly it serves as a documentation of all the discussions or decisions made every day.
 
-The other tool which helps us keep all our tasks streamlined is [PivotalTraker](http://pivotaltracker.com).  
+The other tool which helps us keep all our tasks streamlined is [PivotalTracker](http://pivotaltracker.com).  
 
 All the discussions in group chats or Google Docs end up as a task in this tool which can be picked up by anyone who wants to work on it. Again this removes the need for any kind of interaction to get things done. This particularly helps if the team is spread round the world and work from **different time zones**.
 
