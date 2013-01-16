@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% include JB/setup %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+    <div class="post">
+      <div class="row">
+        <div class="span2"><div class="category"><i class="icon-tags"></i> {{ post.category }}</div></div> 
+        <div class="span2"><h3>{{ post.date | date_to_string }}</h3></div>
+        <div class="span7"><h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2></div>
+      </div>
+    </div>
+  {% endfor %}
+
+  <div class="blog_pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="{{ BASE_PATH }}" class="previous more_btn">&larr; Newer Posts</a>
+      {% else %}
+        <a rel="prev" href="{{ BASE_PATH }}/page{{paginator.previous_page}}" class="previous more_btn">&larr; Newer Posts</a>
+      {% endif %}
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a href="{{ BASE_PATH }}/page{{paginator.next_page}}" rel="next" class="next more_btn">Older Posts &rarr;</a>
+    {% endif %}
+  </div>
+</div>

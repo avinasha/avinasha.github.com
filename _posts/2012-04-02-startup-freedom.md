@@ -1,9 +1,8 @@
 ---
 layout: post
-category : lessons
+category : Startup
 tags : [startup, process]
 ---
-{% include JB/setup %}
 
 Its been an year since I joined [SupportBee](http://supportbee.com) and the kind of learnings is huge. I want to share some of the highlights of these learnings.
 

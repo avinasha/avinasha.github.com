@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>Avinasha Shastry {{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -12,8 +12,13 @@
     <![endif]-->
 
     <!-- Le styles -->
+    <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+
     <link href="{{ ASSET_PATH }}/css/1.4.0/bootstrap.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
 
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
@@ -28,12 +33,50 @@
 
     <div class="container">
 
+      <div class="header">
+        <div class="row">
+          <div class="span3">
+            <div class="image">
+              <img src="/images/profile.jpg"/>
+            </div>
+          </div>
+
+          <div class="span9">
+            <div class="row">
+              <div class="span6"> 
+                <a href="/">Home</a> /
+                <a href="/">Work</a> |
+                <a href="https://twitter.com/AviShastry">Twitter</a> /
+                <a href="http://github.com/avinasha">Github</a>  
+              </div>
+            </div>
+            <div class="row">
+              <div class="span9">
+                <h1>Avinasha Shastry</h1>
+                <h3>Startups.Code.Writings.Travel<h3>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="content">
-        {{ content }}
+        <div class="row">
+          <div class="span11">
+            {{ content }}
+          </div>
+
+          <div class="sidebar span3">
+            <div class="supportbee-widget">
+              <a href="https://supportbee.com"><img src="https://d1vijro2f92n44.cloudfront.net/images/v3/logo.png"/></a>
+              <p>HELP DESK SOFTWARE FOR COLLABORATIVE TEAMS</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <footer>
-        <p>&copy; {{ site.author.name }} 2012 
+        <p>&copy; {{ site.author.name }} 2013 
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
