@@ -95,7 +95,7 @@ p {
 }
 
 .post{
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .post .title a{
@@ -119,7 +119,6 @@ p {
 }
 
 .post .post-content p{
-  text-indent: 1.5em;
   font-size: 18px;
   line-height: 30px;
 }
@@ -189,3 +188,6 @@ p {
 	color:#FFF;
 }
 	
+#header-profile-image{
+  border-radius: 50%;
+}
